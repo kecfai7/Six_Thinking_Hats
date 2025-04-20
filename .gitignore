@@ -1,0 +1,4 @@
+# .gitignore for Six Thinking Hats project
+.env
+*.pyc
+__pycache__/

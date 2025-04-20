@@ -1,0 +1,26 @@
+{
+  "hats": [
+    { "color": "White", "eng": "White", "desc": "Information, facts, data" },
+    { "color": "Red", "eng": "Red", "desc": "Emotion, intuition, feeling" },
+    { "color": "Black", "eng": "Black", "desc": "Critical thinking, risks, problems" },
+    { "color": "Yellow", "eng": "Yellow", "desc": "Positive thinking, strengths, opportunities" },
+    { "color": "Green", "eng": "Green", "desc": "Creative thinking, ideas, alternatives" },
+    { "color": "Blue", "eng": "Blue", "desc": "Process management, conclusion, direction" }
+  ],
+  "title": "Six Thinking Hats AI Counseling",
+  "subtitle": "Enter your problem and get psychological analysis by six expert hats.",
+  "input_label": "Enter your problem/situation",
+  "email_label": "Email (for results)",
+  "submit": "Request AI Analysis",
+  "copy": "Copy All Results",
+  "send_pdf": "Send PDF by Email",
+  "copy_success": "Copied!",
+  "error": "Server error or network problem.",
+  "white_hat": "White Hat",
+  "red_hat": "Red Hat",
+  "black_hat": "Black Hat",
+  "yellow_hat": "Yellow Hat",
+  "green_hat": "Green Hat",
+  "blue_hat": "Blue Hat",
+  "language": "한국어"
+}
