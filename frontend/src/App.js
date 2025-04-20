@@ -55,7 +55,8 @@ export default function App() {
     setAnswers(null);
     setCopySuccess("");
     try {
-      const res = await axios.post('http://localhost:5000/api/solve', { problem, email });
+      const apiUrl = process.env.REACT_APP_API_URL || 'http://localhost:5000';
+      const res = await axios.post(`${apiUrl}/api/solve`, { problem, email });
       // hat_answers를 answers로 세팅
       setAnswers(res.data.hat_answers || res.data);
     } catch (err) {
